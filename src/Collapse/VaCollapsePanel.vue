@@ -1,14 +1,14 @@
 <template>
-  <div :class="`${classPrefix}-collapse__panel`">
-    <div :class="`${classPrefix}-collapse__panel__header`" @click="toggle()">
-      <slot name="header">
+  <div :class="`va-collapse__panel`">
+    <div :class="`va-collapse__panel__header`" @click="toggle()">
+      <slot name="header" :is-open="isOpen">
         <va-icon v-if="!isOpen" type="angle-right"/>
         <va-icon v-else type="angle-down"/>
         {{header}}
       </slot>
     </div>
     <va-collapse-transition>
-      <div :class="`${classPrefix}-collapse__panel__body`" v-if="isOpen">
+      <div :class="`va-collapse__panel__body`" v-if="isOpen">
         <slot/>
       </div>
     </va-collapse-transition>
@@ -26,11 +26,7 @@ export default {
       type: Boolean,
       default: false
     },
-    index: {},
-    classPrefix: {
-      type: String,
-      default: 'va'
-    }
+    index: {}
   },
   data () {
     let isOpen = this.open
