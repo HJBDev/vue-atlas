@@ -54,7 +54,12 @@ export default {
           'help',
           'help-light',
           'help-dark',
-          'black'
+          'black',
+          'outline-primary',
+          'outline-danger',
+          'outline-default',
+          'outline-success',
+          'outline-help'
         ].includes(v)
       }
     },
