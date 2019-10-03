@@ -283,11 +283,11 @@ export default {
     focus () {
       this.$refs.btn.focus()
     },
-    onClick () {
+    onClick (e) {
       if (this.disabled) {
         return
       }
-      this.$emit('click')
+      this.$emit('click', e)
     }
   },
   mounted () {
