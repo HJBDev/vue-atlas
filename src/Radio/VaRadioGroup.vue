@@ -21,7 +21,7 @@ export default {
   mixins: [validationMixin, events],
   props: {
     value: {
-      type: [String, Array]
+      type: [String, Array, Number]
     },
     vertical: {
       type: Boolean,

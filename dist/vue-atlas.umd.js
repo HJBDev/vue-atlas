@@ -13288,14 +13288,15 @@ var VaTextarea_component = normalizeComponent(
 
 VaTextarea_component.options.__file = "VaTextarea.vue"
 /* harmony default export */ var VaTextarea = (VaTextarea_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Radio/VaRadioGroup.vue?vue&type=template&id=76846f92&
-var VaRadioGroupvue_type_template_id_76846f92_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classObj},[_vm._t("default"),_c('validate',{attrs:{"name":_vm.name,"rules":_vm.rules,"custom-validate":_vm.customValidate,"current":_vm.value}})],2)}
-var VaRadioGroupvue_type_template_id_76846f92_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Radio/VaRadioGroup.vue?vue&type=template&id=4cf87715&
+var VaRadioGroupvue_type_template_id_4cf87715_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classObj},[_vm._t("default"),_c('validate',{attrs:{"name":_vm.name,"rules":_vm.rules,"custom-validate":_vm.customValidate,"current":_vm.value}})],2)}
+var VaRadioGroupvue_type_template_id_4cf87715_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/Radio/VaRadioGroup.vue?vue&type=template&id=76846f92&
+// CONCATENATED MODULE: ./src/Radio/VaRadioGroup.vue?vue&type=template&id=4cf87715&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Radio/VaRadioGroup.vue?vue&type=script&lang=js&
+
 
 //
 //
@@ -13318,7 +13319,7 @@ var VaRadioGroupvue_type_template_id_76846f92_staticRenderFns = []
   mixins: [validationMixin, events],
   props: {
     value: {
-      type: [String, Array]
+      type: [String, Array, Number]
     },
     vertical: {
       type: Boolean,
@@ -13400,8 +13401,8 @@ var VaRadioGroupvue_type_template_id_76846f92_staticRenderFns = []
 
 var VaRadioGroup_component = normalizeComponent(
   Radio_VaRadioGroupvue_type_script_lang_js_,
-  VaRadioGroupvue_type_template_id_76846f92_render,
-  VaRadioGroupvue_type_template_id_76846f92_staticRenderFns,
+  VaRadioGroupvue_type_template_id_4cf87715_render,
+  VaRadioGroupvue_type_template_id_4cf87715_staticRenderFns,
   false,
   null,
   null,
