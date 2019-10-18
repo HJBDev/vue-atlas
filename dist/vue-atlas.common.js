@@ -9707,12 +9707,12 @@ var VaSelect_component = normalizeComponent(
 
 VaSelect_component.options.__file = "VaSelect.vue"
 /* harmony default export */ var Select_VaSelect = (VaSelect_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Topbar/VaTopbar.vue?vue&type=template&id=6a69d85e&
-var VaTopbarvue_type_template_id_6a69d85e_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classObj,style:(_vm.styleObj)},[_c('div',{class:"va-topbar-inner"},[_c('div',{class:"va-topbar-left"},[_vm._t("left")],2),_c('div',{class:"va-topbar-center"},[_vm._t("center")],2),_c('div',{class:"va-topbar-right"},[_vm._t("right")],2)])])}
-var VaTopbarvue_type_template_id_6a69d85e_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Topbar/VaTopbar.vue?vue&type=template&id=287d2514&
+var VaTopbarvue_type_template_id_287d2514_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('div',{class:_vm.classObj,style:(_vm.styleObj)},[_c('div',{class:"va-topbar-inner"},[_c('div',{class:"va-topbar-left"},[_vm._t("left")],2),_c('div',{class:"va-topbar-center"},[_vm._t("center")],2),_c('div',{class:"va-topbar-right"},[_vm._t("right")],2)])])}
+var VaTopbarvue_type_template_id_287d2514_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/Topbar/VaTopbar.vue?vue&type=template&id=6a69d85e&
+// CONCATENATED MODULE: ./src/Topbar/VaTopbar.vue?vue&type=template&id=287d2514&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Topbar/VaTopbar.vue?vue&type=script&lang=js&
 //
@@ -10035,10 +10035,6 @@ var VaTopbarvue_type_template_id_6a69d85e_staticRenderFns = []
         style['overflow'] = 'visible';
       }
 
-      if (th) {
-        style['left'] = "".concat(mw, "px");
-      }
-
       return style;
     }
   }
@@ -10055,8 +10051,8 @@ var VaTopbarvue_type_template_id_6a69d85e_staticRenderFns = []
 
 var VaTopbar_component = normalizeComponent(
   Topbar_VaTopbarvue_type_script_lang_js_,
-  VaTopbarvue_type_template_id_6a69d85e_render,
-  VaTopbarvue_type_template_id_6a69d85e_staticRenderFns,
+  VaTopbarvue_type_template_id_287d2514_render,
+  VaTopbarvue_type_template_id_287d2514_staticRenderFns,
   false,
   null,
   null,
