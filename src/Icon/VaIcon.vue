@@ -20,7 +20,7 @@ export default {
       default: 'solid',
       required: false,
       validator (v) {
-        return ['solid', 'regular', 'brands'].includes(v)
+        return ['solid', 'regular', 'brands', 'duotone'].includes(v)
       }
     },
     size: {
@@ -61,6 +61,8 @@ export default {
           return 'fas'
         case 'brands':
           return 'fab'
+        case 'duotone':
+          return 'fad'
         default:
           return 'fas'
       }

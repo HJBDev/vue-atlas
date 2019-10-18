@@ -5973,12 +5973,12 @@ var VaTabs_component = normalizeComponent(
 
 VaTabs_component.options.__file = "VaTabs.vue"
 /* harmony default export */ var VaTabs = (VaTabs_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Icon/VaIcon.vue?vue&type=template&id=b586972a&
-var VaIconvue_type_template_id_b586972a_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('i',{class:[_vm.fontStyle, 'fa-' + _vm.type],style:({fontSize:_vm.size,color:_vm.color,margin:_vm.margin,backgroundColor:_vm.bgColor,borderRadius:'4px',padding:_vm.padding})},[_vm._t("default")],2)}
-var VaIconvue_type_template_id_b586972a_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Icon/VaIcon.vue?vue&type=template&id=fc47515c&
+var VaIconvue_type_template_id_fc47515c_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('i',{class:[_vm.fontStyle, 'fa-' + _vm.type],style:({fontSize:_vm.size,color:_vm.color,margin:_vm.margin,backgroundColor:_vm.bgColor,borderRadius:'4px',padding:_vm.padding})},[_vm._t("default")],2)}
+var VaIconvue_type_template_id_fc47515c_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/Icon/VaIcon.vue?vue&type=template&id=b586972a&
+// CONCATENATED MODULE: ./src/Icon/VaIcon.vue?vue&type=template&id=fc47515c&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/Icon/VaIcon.vue?vue&type=script&lang=js&
 
@@ -6004,7 +6004,7 @@ var VaIconvue_type_template_id_b586972a_staticRenderFns = []
       default: 'solid',
       required: false,
       validator: function validator(v) {
-        return ['solid', 'regular', 'brands'].includes(v);
+        return ['solid', 'regular', 'brands', 'duotone'].includes(v);
       }
     },
     size: {
@@ -6048,6 +6048,9 @@ var VaIconvue_type_template_id_b586972a_staticRenderFns = []
         case 'brands':
           return 'fab';
 
+        case 'duotone':
+          return 'fad';
+
         default:
           return 'fas';
       }
@@ -6066,8 +6069,8 @@ var VaIconvue_type_template_id_b586972a_staticRenderFns = []
 
 var VaIcon_component = normalizeComponent(
   Icon_VaIconvue_type_script_lang_js_,
-  VaIconvue_type_template_id_b586972a_render,
-  VaIconvue_type_template_id_b586972a_staticRenderFns,
+  VaIconvue_type_template_id_fc47515c_render,
+  VaIconvue_type_template_id_fc47515c_staticRenderFns,
   false,
   null,
   null,
