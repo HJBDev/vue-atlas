@@ -317,6 +317,10 @@ export default {
         style['overflow'] = 'visible'
       }
 
+      if(th) {
+          style['left'] = `${mw}px`;
+      }
+
       return style
     }
   }
