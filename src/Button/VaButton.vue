@@ -33,35 +33,7 @@ export default {
     type: {
       type: String,
       default: 'default',
-      required: false,
-      validator (v) {
-        return [
-          'default',
-          'primary',
-          'primary-light',
-          'primary-dark',
-          'paleblue',
-          'success',
-          'info',
-          'warning',
-          'danger',
-          'subtle',
-          'link',
-          'subtle-link',
-          'active',
-          'dark',
-          'darker',
-          'help',
-          'help-light',
-          'help-dark',
-          'black',
-          'outline-primary',
-          'outline-danger',
-          'outline-default',
-          'outline-success',
-          'outline-help'
-        ].includes(v)
-      }
+      required: false
     },
     size: {
       type: String,
