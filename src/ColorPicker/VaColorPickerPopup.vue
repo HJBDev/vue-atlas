@@ -107,11 +107,7 @@ export default {
     }
   },
   mounted () {
-    this.hex = this.color
-    this.hsb = hexToHsb(this.hex)
-    this.rgb = hsbToRgb(this.hsb)
-
-    this.emitColors()
+    this.init();
   },
   computed: {
     gradientStyleObj () {
@@ -137,6 +133,13 @@ export default {
     }
   },
   methods: {
+      init() {
+        this.hex = this.color
+        this.hsb = hexToHsb(this.hex)
+        this.rgb = hsbToRgb(this.hsb)
+
+        this.emitColors()
+    }, 
     doShow () {
       setTimeout(() => {
         this.hsb = hexToHsb(this.hex)

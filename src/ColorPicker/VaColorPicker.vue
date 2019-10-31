@@ -9,7 +9,7 @@
     </div>
     <va-color-picker-popup
       ref="colorpickerpopup"
-      :color="color"
+      :color="col"
       :show="show"
       :hide-alpha="hideAlpha"
       @change="onChange"
@@ -40,6 +40,11 @@ export default {
       rgba: '',
       rgb: ''
     }
+  },
+  watch: {
+      color(color) {
+          this.col = color;
+      }
   },
   methods: {
     toggleColorPicker () {
