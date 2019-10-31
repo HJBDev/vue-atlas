@@ -3,7 +3,6 @@
 ############################
 
 .env
-dist
 *.patch
 **/*scsslint_tmp*.*
 
