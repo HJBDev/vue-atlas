@@ -52,16 +52,6 @@ export default {
     },
     onChange (e) {
       this.colors = e
-      this.col =
-        'rgba(' +
-        e.rgba.r +
-        ', ' +
-        e.rgba.g +
-        ', ' +
-        e.rgba.b +
-        ', ' +
-        e.rgba.a +
-        ')'
       this.rgba =
         'rgba(' +
         e.rgba.r +

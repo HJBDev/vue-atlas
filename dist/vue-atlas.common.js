@@ -16877,12 +16877,12 @@ var VaPagination_component = normalizeComponent(
 
 VaPagination_component.options.__file = "VaPagination.vue"
 /* harmony default export */ var VaPagination = (VaPagination_component.exports);
-// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/ColorPicker/VaColorPicker.vue?vue&type=template&id=63048eec&
-var VaColorPickervue_type_template_id_63048eec_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('va-dropdown',[_c('div',{attrs:{"slot":"trigger"},slot:"trigger"},[_c('va-button',{ref:"colorpicker",nativeOn:{"click":function($event){$event.preventDefault();return _vm.toggleColorPicker($event)}}},[_c('div',{class:"va-color-picker-button-inner"},[_c('div',{style:(_vm.buttonStyleObj)})])])],1),_c('va-color-picker-popup',{ref:"colorpickerpopup",attrs:{"color":_vm.col,"show":_vm.show,"hide-alpha":_vm.hideAlpha},on:{"change":_vm.onChange}})],1)}
-var VaColorPickervue_type_template_id_63048eec_staticRenderFns = []
+// CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js?{"cacheDirectory":"node_modules//.cache//vue-loader","cacheIdentifier":"3e799450-vue-loader-template"}!./node_modules/vue-loader/lib/loaders/templateLoader.js??vue-loader-options!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/ColorPicker/VaColorPicker.vue?vue&type=template&id=38376042&
+var VaColorPickervue_type_template_id_38376042_render = function () {var _vm=this;var _h=_vm.$createElement;var _c=_vm._self._c||_h;return _c('va-dropdown',[_c('div',{attrs:{"slot":"trigger"},slot:"trigger"},[_c('va-button',{ref:"colorpicker",nativeOn:{"click":function($event){$event.preventDefault();return _vm.toggleColorPicker($event)}}},[_c('div',{class:"va-color-picker-button-inner"},[_c('div',{style:(_vm.buttonStyleObj)})])])],1),_c('va-color-picker-popup',{ref:"colorpickerpopup",attrs:{"color":_vm.col,"show":_vm.show,"hide-alpha":_vm.hideAlpha},on:{"change":_vm.onChange}})],1)}
+var VaColorPickervue_type_template_id_38376042_staticRenderFns = []
 
 
-// CONCATENATED MODULE: ./src/ColorPicker/VaColorPicker.vue?vue&type=template&id=63048eec&
+// CONCATENATED MODULE: ./src/ColorPicker/VaColorPicker.vue?vue&type=template&id=38376042&
 
 // CONCATENATED MODULE: ./node_modules/cache-loader/dist/cjs.js??ref--12-0!./node_modules/thread-loader/dist/cjs.js!./node_modules/babel-loader/lib!./node_modules/cache-loader/dist/cjs.js??ref--0-0!./node_modules/vue-loader/lib??vue-loader-options!./src/ColorPicker/VaColorPicker.vue?vue&type=script&lang=js&
 //
@@ -16938,7 +16938,6 @@ var VaColorPickervue_type_template_id_63048eec_staticRenderFns = []
     },
     onChange: function onChange(e) {
       this.colors = e;
-      this.col = 'rgba(' + e.rgba.r + ', ' + e.rgba.g + ', ' + e.rgba.b + ', ' + e.rgba.a + ')';
       this.rgba = 'rgba(' + e.rgba.r + ', ' + e.rgba.g + ', ' + e.rgba.b + ', ' + e.rgba.a + ')';
       this.rgb = 'rgb(' + e.rgba.r + ', ' + e.rgba.g + ', ' + e.rgba.b + ')';
       this.$emit('change', e);
@@ -16977,8 +16976,8 @@ var VaColorPickervue_type_style_index_0_lang_scss_ = __webpack_require__("9ace")
 
 var VaColorPicker_component = normalizeComponent(
   ColorPicker_VaColorPickervue_type_script_lang_js_,
-  VaColorPickervue_type_template_id_63048eec_render,
-  VaColorPickervue_type_template_id_63048eec_staticRenderFns,
+  VaColorPickervue_type_template_id_38376042_render,
+  VaColorPickervue_type_template_id_38376042_staticRenderFns,
   false,
   null,
   null,
