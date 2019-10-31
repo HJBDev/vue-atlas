@@ -132,6 +132,11 @@ export default {
       return style
     }
   },
+  watch: {
+      color(color) {
+          this.init();
+      }
+  },
   methods: {
       init() {
         this.hex = this.color
