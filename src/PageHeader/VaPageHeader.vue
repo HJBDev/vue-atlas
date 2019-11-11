@@ -7,7 +7,9 @@
     </div>
 
     <div :class="`va-page-header-title-wrapper`">
-      <div :class="`va-page-header-avatar`" v-if="hasAvatar"></div>
+      <div :class="`va-page-header-avatar`" v-if="hasAvatar">
+          <slot name="avatar"></slot>
+      </div>
       <div :class="`va-page-header-title-container`">
         <h1>
           <slot name="title" />
