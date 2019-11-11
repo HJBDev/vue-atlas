@@ -1,29 +1,24 @@
 <template>
   <div :class="`va-page-header`">
-    <div
-      v-if="hasBreadcrumb"
-      :class="`va-page-header-breadcrumb-wrapper`"
-    >
+    <div v-if="hasBreadcrumb" :class="`va-page-header-breadcrumb-wrapper`">
       <div :class="`va-page-header-breadcrumb-container`">
         <slot name="breadcrumb">&nbsp;</slot>
       </div>
     </div>
 
     <div :class="`va-page-header-title-wrapper`">
+      <div :class="`va-page-header-avatar`" v-if="hasAvatar"></div>
       <div :class="`va-page-header-title-container`">
         <h1>
-          <slot name="title"/>
+          <slot name="title" />
         </h1>
         <h2 v-if="hasSubtitle">
-          <slot name="subtitle"/>
+          <slot name="subtitle" />
         </h2>
       </div>
 
-      <div
-        v-if="hasActions"
-        :class="`va-page-header-actions-wrapper`"
-      >
-        <slot name="actions"/>
+      <div v-if="hasActions" :class="`va-page-header-actions-wrapper`">
+        <slot name="actions" />
       </div>
     </div>
 
@@ -35,21 +30,24 @@
 
 <script>
 export default {
-  name: 'VaPageHeader',
-  computed: {
-    hasActions () {
-      return !!this.$slots['actions']
-    },
-    hasBottom () {
-      return !!this.$slots['bottom']
-    },
-    hasBreadcrumb () {
-      return !!this.$slots['breadcrumb']
-    },
-    hasSubtitle () {
-      return !!this.$slots['subtitle']
+    name: 'VaPageHeader',
+    computed: {
+        hasActions() {
+            return !!this.$slots['actions']
+        },
+        hasBottom() {
+            return !!this.$slots['bottom']
+        },
+        hasBreadcrumb() {
+            return !!this.$slots['breadcrumb']
+        },
+        hasSubtitle() {
+            return !!this.$slots['subtitle']
+        },
+        hasAvatar() {
+            return !!this.$slots['avatar']
+        }
     }
-  }
 }
 </script>
 
@@ -63,6 +61,10 @@ export default {
     display: flex;
     align-items: flex-start;
     justify-content: space-between;
+  }
+
+  &-avatar {
+      margin-right: .5rem;
   }
 
   &-title-container {
