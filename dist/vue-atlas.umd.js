@@ -3934,6 +3934,7 @@ var relocate = function relocate(el) {
       return;
     }
 
+    console.log('binding', binding);
     console.log('bindingvalueShow', binding.value.show);
     console.log('bindingoldvalueShow', binding.oldValue.show);
 

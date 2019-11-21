@@ -54,6 +54,7 @@ export default {
       }, 400)
       return
     }
+    console.log('binding', binding)
     console.log('bindingvalueShow', binding.value.show)
     console.log('bindingoldvalueShow', binding.oldValue.show)
     if (binding.value.show !== binding.oldValue.show) {
