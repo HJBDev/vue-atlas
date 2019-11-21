@@ -3937,6 +3937,8 @@ var relocate = function relocate(el) {
     if (binding.value.show !== binding.oldValue.show) {
       external_commonjs_vue_commonjs2_vue_root_Vue_default.a.nextTick(function () {
         if (binding.value.position) {
+          console.dir('binding.value.position');
+          console.dir(binding.value.position);
           el.classList.add("position-".concat(binding.value.position));
         } else {
           relocate(el);
