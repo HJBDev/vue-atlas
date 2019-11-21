@@ -41,6 +41,11 @@ export default {
       type: Boolean,
       default: false,
       required: false
+    },
+    position: {
+        type: String,
+        default: null,
+        required: false
     }
   },
   data () {
@@ -72,6 +77,11 @@ export default {
       classes['va-dropdown-con-tall'] = tall
 
       return classes
+    },
+    vaPositionParams() {
+        let obj = {};
+        obj['show'] = show;
+        if(this.position) obj['position'] = this.position;
     }
   },
   mounted () {

@@ -32,7 +32,7 @@
     <transition name="fadeDown">
       <div
         v-show="show"
-        v-va-position="show"
+        v-va-position="{ show: show }"
         :class="`va-timepicker-popup`"
       >
         <div

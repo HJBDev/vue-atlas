@@ -49,7 +49,7 @@
         :style="{minWidth: '100%', maxHeight: menuMaxHeight}"
         ref="menu"
         v-show="show"
-        v-va-position="show"
+        v-va-position="{ show: show }"
       >
         <li v-if="search">
           <div :class="`va-search-wrap`">

@@ -38,7 +38,7 @@
       <div
         :class="`va-datepicker-popup`"
         v-show="displayDayView"
-        v-va-position="displayDayView"
+        v-va-position="{ open: displayDayView }"
       >
         <div :class="`va-datepicker-inner`">
           <div :class="`va-datepicker-body`">
@@ -89,7 +89,7 @@
       <div
         :class="`va-datepicker-popup`"
         v-show="displayMonthView"
-        v-va-position="displayMonthView"
+        v-va-position="{ open: displayMonthView }"
       >
         <div :class="`va-datepicker-inner`">
           <div :class="`va-datepicker-body`">
@@ -138,7 +138,7 @@
       <div
         :class="`va-datepicker-popup`"
         v-show="displayYearView"
-        v-va-position="displayYearView"
+        v-va-position="{ open: displayYearView }"
       >
         <div :class="`va-datepicker-inner`">
           <div :class="`va-datepicker-body`">

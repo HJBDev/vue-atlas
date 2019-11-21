@@ -48,15 +48,19 @@ const relocate = (el) => {
 
 export default {
   componentUpdated (el, binding) {
-    if (!binding.value) {
+    if (!binding.value && !binding.value.show) {
       setTimeout(() => {
         removeClassByPrefix(el, 'position-')
       }, 400)
       return
     }
-    if (binding.value !== binding.oldValue) {
+    if (binding.value.show !== binding.oldValue.show) {
       Vue.nextTick(() => {
-        relocate(el)
+        if (binding.value.position) {
+          el.classList.add(`position-${binding.value.position}`)
+        } else {
+          relocate(el)
+        }
       })
     }
   }

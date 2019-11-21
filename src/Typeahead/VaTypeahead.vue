@@ -28,7 +28,7 @@
       :class="`va-dropdown-menu`"
       :style="{minWidth: actualWidth, maxHeight: dropdownHeight}"
       v-show="show"
-      v-va-position="show"
+      v-va-position="{ show: show }"
     >
       <li :class="isActive(index)" :key="index" v-for="(item, index) in citems">
         <a @mousedown.prevent="hit(index)">
