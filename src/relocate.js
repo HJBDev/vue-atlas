@@ -48,7 +48,7 @@ const relocate = (el) => {
 
 export default {
   componentUpdated (el, binding) {
-    if (!binding.value && !binding.value.show) {
+    if (!binding.value || !binding.value.show) {
       setTimeout(() => {
         removeClassByPrefix(el, 'position-')
       }, 400)

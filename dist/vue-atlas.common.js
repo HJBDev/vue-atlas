@@ -3918,7 +3918,7 @@ var relocate = function relocate(el) {
 
 /* harmony default export */ var src_relocate = ({
   componentUpdated: function componentUpdated(el, binding) {
-    if (!binding.value && !binding.value.show) {
+    if (!binding.value || !binding.value.show) {
       setTimeout(function () {
         removeClassByPrefix(el, 'position-');
       }, 400);
