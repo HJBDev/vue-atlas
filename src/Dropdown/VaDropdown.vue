@@ -6,7 +6,7 @@
 
     <transition :name="effect">
       <ul
-        v-va-position="show"
+        v-va-position="vaPositionParams"
         :class="`va-dropdown-menu`"
         v-show="show"
       >
