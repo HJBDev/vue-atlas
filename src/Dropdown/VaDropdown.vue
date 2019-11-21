@@ -80,7 +80,7 @@ export default {
     },
     vaPositionParams() {
         let obj = {};
-        obj['show'] = show;
+        obj['show'] = this.show;
         if(this.position) obj['position'] = this.position;
     }
   },
