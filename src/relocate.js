@@ -54,6 +54,8 @@ export default {
       }, 400)
       return
     }
+    console.log('bindingvalueShow', binding.value.show)
+    console.log('bindingoldvalueShow', binding.oldValue.show)
     if (binding.value.show !== binding.oldValue.show) {
       Vue.nextTick(() => {
         if (binding.value.position) {
@@ -61,6 +63,7 @@ export default {
             console.dir(binding.value.position)
           el.classList.add(`position-${binding.value.position}`)
         } else {
+            console.dir('relocate')
           relocate(el)
         }
       })

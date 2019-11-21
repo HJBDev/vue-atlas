@@ -3934,6 +3934,9 @@ var relocate = function relocate(el) {
       return;
     }
 
+    console.log('bindingvalueShow', binding.value.show);
+    console.log('bindingoldvalueShow', binding.oldValue.show);
+
     if (binding.value.show !== binding.oldValue.show) {
       external_commonjs_vue_commonjs2_vue_root_Vue_default.a.nextTick(function () {
         if (binding.value.position) {
@@ -3941,6 +3944,7 @@ var relocate = function relocate(el) {
           console.dir(binding.value.position);
           el.classList.add("position-".concat(binding.value.position));
         } else {
+          console.dir('relocate');
           relocate(el);
         }
       });
