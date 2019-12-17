@@ -1,5 +1,6 @@
 <template>
   <button
+    :disabled="disabled"
     :class="classObj"
     :style="styleObj"
     @click="onClick"
