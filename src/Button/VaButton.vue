@@ -258,6 +258,7 @@ export default {
     },
     onClick (e) {
       if (this.disabled) {
+        e.stopPropagation()
         return
       }
       this.$emit('click', e)
