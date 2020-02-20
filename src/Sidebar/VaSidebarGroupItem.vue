@@ -135,6 +135,8 @@ export default {
     this.$on('Va@showToggleChange', val => {
       this.st = val
     })
+
+    console.log('item:', this.item)
   },
   computed: {
     itemHasMethod () {
