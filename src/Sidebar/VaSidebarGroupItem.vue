@@ -37,6 +37,7 @@
         v-if="showLabel"
         :class="`va-sidebar-group-item-label`"
         :style="styleObj"
+        @click="item.action ? item.action() : null"
       >
         {{item.name}}
         <span
