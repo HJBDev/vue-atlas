@@ -135,17 +135,15 @@ export default {
     this.$on('Va@showToggleChange', val => {
       this.st = val
     })
-
-    console.log('item:', this.item)
   },
   computed: {
     itemHasMethod () {
-      return this.item.method !== undefined
+      return this.item.method !== undefined || this.item.action !== undefined
     },
     itemMethod () {
       if (this.itemHasMethod) {
         return {
-          click: this.item.method
+          click: this.item.method !== undefined ? this.item.method : this.item.action
         }
       }
 
